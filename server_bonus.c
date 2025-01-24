@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   server.c                                           :+:      :+:    :+:   */
+/*   server_bonus.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dajesus- <dajesus-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/17 20:29:06 by dajesus-          #+#    #+#             */
-/*   Updated: 2025/01/24 08:46:12 by dajesus-         ###   ########.fr       */
+/*   Updated: 2025/01/24 09:47:28 by dajesus-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "minitalk.h"
+#include "minitalk_bonus.h"
 
 static t_message_state	g_message_state = {0, 0};
 
@@ -97,7 +97,7 @@ int	main(int argc, char *argv[])
 	(void)argv;
 	if (argc != 1)
 	{
-		ft_printf("Usage: ./server\n");
+		ft_printf("Usage: ./server_bonus\n");
 		return (1);
 	}
 	display_server_pid();
