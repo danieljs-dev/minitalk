@@ -15,8 +15,7 @@ make
 - Open other terminal and run:
 ```bash
 chmod +x get_server_pid.sh
-source ./get_server_pid.sh
 ```
 ```shell
-./client $SERVER_PID "Hello world"
+source ./get_server_pid.sh  && ./client $SERVER_PID "Hello world"
 ```
